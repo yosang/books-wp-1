@@ -31,7 +31,7 @@ router.post("/", (req, res) => {
 });
 
 // UPDATE books
-router.put("/", (req, res) => {
+router.put("/:id", (req, res) => {
   try {
     // DATABASE query goes here
 
@@ -43,7 +43,7 @@ router.put("/", (req, res) => {
 });
 
 // DELETE books
-router.delete("/", (_, res) => {
+router.delete("/:id", (_, res) => {
   try {
     // DATABASE query goes here
 
