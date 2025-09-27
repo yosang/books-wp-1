@@ -17,6 +17,4 @@ db.init = () => {
   });
 };
 
-
-console.log(db)
 module.exports = db;
