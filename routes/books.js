@@ -35,12 +35,13 @@ router.post("/", (req, res) => {
 
     // Send off the query to the database
     db.connection.query(
-      "INSERT INTO books(title, author, genre, publication_year, metadata) VALUES(?, ?, ?, ?, ?)", values,
+      "INSERT INTO books(title, author, genre, publication_year, metadata) VALUES(?, ?, ?, ?, ?)",
+      values,
       (err, result) => {
-        if (err) throw Error('The database record creation failed')
+        if (err) throw Error("The database record creation failed");
 
         console.log(result);
-        res.status(201).end;
+        res.status(201).end();
       }
     );
   } catch (err) {
@@ -51,14 +52,21 @@ router.post("/", (req, res) => {
   }
 });
 
-// UPDATE books
+// UPDATE book title
 router.put("/:id", (req, res) => {
   const id = req.params.id;
   const body = req.body;
-  try {
-    // DATABASE query goes here
 
-    res.status(204);
+  try {
+    db.connection.query(
+      "UPDATE books SET title = ? WHERE id = ?",
+      [body.title, id],
+      (err, result) => {
+        if (err) throw Error("Database record update failed");
+        console.log(result);
+        res.status(204).end();
+      }
+    );
   } catch (err) {
     console.log("Unable to update book", err);
     res
@@ -68,11 +76,18 @@ router.put("/:id", (req, res) => {
 });
 
 // DELETE books
-router.delete("/:id", (_, res) => {
+router.delete("/:id", (req, res) => {
+  const id = req.params.id;
   try {
-    // DATABASE query goes here
-
-    res.status(204);
+    db.connection.query(
+      "DELETE FROM books WHERE id = ?",
+      [id],
+      (err, result) => {
+        if (err) throw Error("Database record deletion failed");
+        console.log(result);
+        res.status(204).end();
+      }
+    );
   } catch (err) {
     console.log("Unable to delete book", err);
     res
