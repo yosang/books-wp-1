@@ -1,0 +1,145 @@
+[
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "publication_year": 1999,
+    "metadata": {
+      "rating": 4.8,
+      "pages": 435,
+      "isbn": "978-0439136365",
+      "description": "Harry returns to Hogwarts amid danger from an escaped prisoner.",
+      "tags": ["magic", "adventure", "youth"],
+      "awards": [{ "name": "Hugo Award", "year": 2000 }]
+    }
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "publication_year": 1937,
+    "metadata": {
+      "rating": 4.7,
+      "pages": 310,
+      "isbn": "978-0345339683",
+      "description": "Bilbo Baggins embarks on an unexpected journey.",
+      "tags": ["dragons", "quest", "fantasy"],
+      "awards": [{ "name": "Newbery Honor", "year": 1938 }]
+    }
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "publication_year": 1949,
+    "metadata": {
+      "rating": 4.6,
+      "pages": 328,
+      "isbn": "978-0451524935",
+      "description": "A chilling vision of a totalitarian future.",
+      "tags": ["surveillance", "politics", "fiction"],
+      "awards": [{ "name": "Prometheus Hall of Fame", "year": 1984 }]
+    }
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Drama",
+    "publication_year": 1960,
+    "metadata": {
+      "rating": 4.3,
+      "pages": 281,
+      "isbn": "978-0061120084",
+      "description": "A story of racial injustice in the Deep South.",
+      "tags": ["racism", "coming-of-age", "classic"],
+      "awards": [{ "name": "Pulitzer Prize", "year": 1961 }]
+    }
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Literary Fiction",
+    "publication_year": 1925,
+    "metadata": {
+      "rating": 3.9,
+      "pages": 180,
+      "isbn": "978-0743273565",
+      "description": "A tale of wealth, love, and the American Dream.",
+      "tags": ["jazz age", "tragedy", "romance"],
+      "awards": []
+    }
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "publication_year": 1813,
+    "metadata": {
+      "rating": 4.3,
+      "pages": 279,
+      "isbn": "978-0141439518",
+      "description": "Elizabeth Bennet navigates love and society.",
+      "tags": ["satire", "marriage", "regency"],
+      "awards": [{ "name": "BBC Big Read", "year": 2003 }]
+    }
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Coming-of-Age",
+    "publication_year": 1951,
+    "metadata": {
+      "rating": 3.8,
+      "pages": 277,
+      "isbn": "978-0316769174",
+      "description": "Holden Caulfield's journey through adolescence.",
+      "tags": ["rebellion", "youth", "alienation"],
+      "awards": []
+    }
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": "Science Fiction",
+    "publication_year": 1965,
+    "metadata": {
+      "rating": 4.2,
+      "pages": 412,
+      "isbn": "978-0441172719",
+      "description": "Epic tale of politics and ecology on a desert planet.",
+      "tags": ["space", "ecology", "epic"],
+      "awards": [
+        { "name": "Hugo Award", "year": 1966 },
+        { "name": "Nebula Award", "year": 1965 }
+      ]
+    }
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "publication_year": 1988,
+    "metadata": {
+      "rating": 3.9,
+      "pages": 208,
+      "isbn": "978-0062315007",
+      "description": "A shepherd's quest for treasure and self-discovery.",
+      "tags": ["philosophy", "journey", "inspirational"],
+      "awards": []
+    }
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "Non-Fiction",
+    "publication_year": 2011,
+    "metadata": {
+      "rating": 4.4,
+      "pages": 443,
+      "isbn": "978-0062316097",
+      "description": "A sweeping narrative of human history.",
+      "tags": ["anthropology", "history", "evolution"],
+      "awards": [{ "name": "National Bestseller", "year": 2015 }]
+    }
+  }
+]
