@@ -20,6 +20,11 @@ router.get("/", (_, res) => {
   }
 });
 
+// JSON functionality
+  // GET book rating using JSON_EXTRACT
+  // Search for a speciic book by its metadata using JSON_SEARCH
+  // Apply a new rating to a book using JSON_INSERT
+
 // CREATE books
 router.post("/", (req, res) => {
   try {
