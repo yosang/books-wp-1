@@ -1,7 +1,5 @@
 require("dotenv").config();
 
-
-
 // Database
 const db = require("./database");
 
